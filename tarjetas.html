@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi PC</title>
+  <style>
+    body {
+      background-color: #9325e2;
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      margin: 0;
+      color: #0c0b0b;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .contenedor-tarjetas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .tarjeta {
+      background-color: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 260px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .tarjeta:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px 0;
+  font-size: 0.85em;
+  background-color: #6a0dad; /* Opcional: da contraste al pie de página */
+  color: #fff;
+}
+
+footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      color: #ad0d0d;
+    }
+
+    .tarjeta img {
+  width: 100%; /* Ajusta al 100% del ancho del contenedor */
+  height: auto; /* Ajusta la altura proporcionalmente */
+  object-fit: contain; /* Mantiene la imagen completa sin recortes */
+}
+
+    .contenido {
+      padding: 15px;
+      text-align: left;
+    }
+
+    .titulo {
+      font-size: 1.1em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .detalles p {
+      margin: 4px 0;
+      font-size: 0.9em;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 16px;
+      font-size: 0.95em;
+      color: #fff;
+      background-color: #6a0dad;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+
+    .boton:hover {
+      background-color: #5a009d;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Compra de mi PC </h1>
+
+  <div class="contenedor-tarjetas">
+    <!-- Tarjeta 1 -->
+    <div class="tarjeta">
+      <img src="case.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">Darkflash A290 - Negro</p>
+        <div class="detalles">
+          <p><strong>Estado:</strong> Producto nuevo</p>
+          <p><strong>Fabricante:</strong> DarkFlash</p>
+          <p><strong>Tamaño:</strong> Mid-Tower</p>
+          <p><strong>Panel:</strong> Vidrio Temperado</p>
+          <p><strong>Conectividad:</strong> USB 3.0</p>
+          <p><strong>Precio:</strong> ₡ 16,000</p>
+        </div>
+        <a href="https://extremetechcr.com/tienda/componentes/10519-darkflash-a290-negro.html" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="placa.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">Asrock A620M-HDV/M.2</p>
+        <div class="detalles">
+          <p><strong>Estado:</strong> Producto nuevo</p>
+          <p><strong>Plataforma:</strong> AMD</p>
+          <p><strong>Socket:</strong> AM5</p>
+          <p><strong>Chipset:</strong> AMD A620</p>
+          <p><strong>Formato:</strong>Micro-ATX</p>
+          <p><strong>Memoria:</strong>DDR5 hasta 6400 MHz</p>
+          <p><strong>Precio:</strong> ₡ 44,000</p>
+        </div>
+        <a href="https://extremetechcr.com/tienda/componentes/11020-asrock-a620m-hdvm2.html" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="ram.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">Teamgroup T-Force Vulcan Negro 8GB DDR5 6000</p>
+        <div class="detalles">
+          <p><strong>Estado:</strong> Producto nuevo</p>
+          <p><strong>Velocidad:</strong> DDR5 6000</p>
+          <p><strong>Capacidad:</strong> 8 GB</p>
+          <p><strong>Latencia CAS:</strong> CL38</p>
+          <p><strong>Voltaje:</strong> 1.25V</p>
+          <p><strong>Precio:</strong> ₡ 13,900</p>
+        </div>
+        <a href="https://extremetechcr.com/tienda/componentes/14385-teamgroup-t-force-vulcan-negro-8gb-ddr5-6000.html" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="almacenamiento.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">Teamgroup M.2 MP33 512GB</p>
+        <div class="detalles">
+          <p><strong>Estado:</strong> Producto nuevo</p>
+          <p><strong>Fabricante:</strong> Teamgroup</p>
+          <p><strong>Capacidad:</strong> 512 GB</p>
+          <p><strong>Velocidad Lectura:</strong> Lectura: 1700 MB/s</p>
+          <p><strong>Velocidad Escritura:</strong> Escritura: 1400 MB/s</p>
+          <p><strong>Interfaz:</strong> M.2</p>
+          <p><strong>Precio:</strong> ₡ 17,000</p>
+        </div>
+        <a href="https://extremetechcr.com/tienda/componentes/2965-teamgroup-m2-mp33-512gb.html" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="procesador.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">AMD Ryzen 5 8500G</p>
+        <div class="detalles">
+          <p><strong>Estado:</strong> Producto nuevo</p>
+          <p><strong>Frecuencia:</strong> 3.5 GHz / 5.0 GHz Max Boost</p>
+          <p><strong>Cores:</strong> 6</p>
+          <p><strong>Threads:</strong> 12</p>
+          <p><strong>Cache:</strong> 6/16 MB (L2/L3)</p>
+          <p><strong>Socket:</strong> AM5</p>
+          <p><strong>Consumo:</strong> 65W</p>
+          <p><strong>Gráficos:</strong> AMD Radeon™ 740M (4 cores)</p>
+          <p><strong>Funciones:</strong> AMD Ryzen™ AI</p>
+          <p><strong>Incluye:</strong> Pasta Térmica Thermal Grizzly Hydronaut 1g</p>
+          <p><strong>Precio:</strong> ₡ 85,000</p>
+        </div>
+        <a href="https://extremetechcr.com/tienda/componentes/12035-amd-ryzen-5-8500g.html" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="ARCHER-T2E.webp" alt="img/tarjeta red.png">
+      <div class="contenido">
+        <p class="titulo">Tarjeta de red inalámbrico</p>
+        <div class="detalles">
+          <p><strong>SKU:</strong> ARCHER T2E</p>
+          <p><strong>Marca:</strong> TP-Link</p>
+          <p><strong>Precio:</strong> ₡8,500 IVAI</p>
+        </div>
+        <a href="https://www.intelec.co.cr/tarjeta-de-red-inalambrico-tp-link-ac600-doble-banda1/" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="enfriamiento.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">Redragon CCW-3011 - 240mm - Negro</p>
+        <div class="detalles">
+          <p><strong>Estado:</strong> Producto nuevo</p>
+          <p><strong>Tamaño de Ventilador:</strong> 240mm</p>
+          <p><strong>Sockets Intel:</strong> LGA 1366 / 115 / 1200 / 1700 / 2066 / 2011</p>
+          <p><strong>Sockets AMD:</strong> AM2 / AM3 / AM4 / AM5</p>
+          <p><strong>Iluminación:</strong> Personalizable para que coincida con su configuración</p>
+          <p><strong>Rendimiento:</strong> Bomba optimizada para funcionamiento silencioso</p>
+          <p><strong>Precio:</strong> ₡ 27,000</p>
+        </div>
+        <a href="https://extremetechcr.com/tienda/componentes/11906-redragon-ccw-3011-240mm-negro.html" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="fuente poder.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">Antec G850 - 850W - 80Plus Gold</p>
+        <div class="detalles">
+          <p><strong>Estado:</strong> Producto nuevo</p>
+          <p><strong>Fabricante:</strong> Antec</p>
+          <p><strong>Poder:</strong> 850 W</p>
+          <p><strong>Certificación:</strong> 80 Plus Gold</p>
+          <p><strong>Modular:</strong> Semi Modular</p>
+          <p><strong>Precio:</strong> ₡ 45,000</p>
+        </div>
+        <a href="https://extremetechcr.com/tienda/componentes/14411-antec-g850-power-supply-850w-80plus-gold.html" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="monitor.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">LENOVO THINKVISION T22i-10 - IPS - 75Hz</p>
+        <div class="detalles">
+          <p><strong>Estado:</strong> Producto nuevo</p>
+          <p><strong>Marca:</strong> Lenovo</p>
+          <p><strong>Tamaño:</strong> 22 pulgadas</p>
+          <p><strong>Resolución:</strong> 1920 x 1080</p>
+          <p><strong>Tipo de Panel:</strong> IPS</p>
+          <p><strong>Frecuencia Vertical:</strong> 75 Hz</p>
+          <p><strong>Entradas:</strong> VGA - HDMI</p>
+          <p><strong>Precio:</strong> ₡ 29,900</p>
+        </div>
+        <a href="https://extremeoutletcr.com/monitores/1426-lenovo-thinkvision-t22i-10-ips-75hz.html?search_query=monitor+lenovo+&results=6&cate=" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="teclado raton.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">Combo Teclado y Mouse Redragon BS-7094 - Wireless - Negro </p>
+        <div class="detalles">
+          <p><strong>Estado:</strong> Producto nuevo</p>
+          <p><strong>Marca:</strong> Redragon</p>
+          <p><strong>Tipo Teclado:</strong> Membrana</p>
+          <p><strong>Mouse:</strong> Óptico</p>
+          <p><strong>DPI:</strong> Ajustable 800 / 1200 / 1600 / 2400 / 4000</p>
+          <p><strong>Ratón:</strong> 3 botones con rueda de desplazamiento</p>
+          <p><strong>Conexión:</strong> Inalámbrica con dongle USB plug and play</p>
+          <p><strong>Teclas:</strong> Chocolate silenciosas de perfil bajo</p>
+          <p><strong>Dimensiones Mouse:</strong> 11 x 6.3 x 3.9 cm</p>
+          <p><strong>Peso Mouse:</strong> 60 g ± 10 g</p>
+          <p><strong>Precio:</strong> ₡ 6,900</p>
+        </div>
+        <a href="https://extremetechcr.com/tienda/perifericos/14920-combo-teclado-y-mouse-redragon-bs-7094-wireless-negro.html" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="impresora.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">Impresora HP Smart Tank AIO 520</p>
+        <div class="detalles">
+          <p><strong>SKU:</strong> 1F3W2A</p>
+          <p><strong>Marca:</strong> HP</p>
+          <p><strong>Precio:</strong> ₡84,000 IVAI</p>
+        </div>
+        <a href="https://www.intelec.co.cr/impresora-hp-smart-tank-aio-520/" class="boton">COMPRAR</a>
+      </div>
+    </div>
+    <div class="tarjeta">
+      <img src="windows 11.png" alt="Darkflash A290 - Negro">
+      <div class="contenido">
+        <p class="titulo">MS Win 11 Pro OEM KEY GLOBAL</p>
+        <div class="detalles">
+          <p><strong>Licencia:</strong> OEM</p>
+          <p><strong>Tipo:</strong> Clave Global</p>
+          <p><strong>Precio:</strong> USD 32.23</p>
+        </div>
+        <a href="https://www.gvgmall.com/key/202110081330187068.html" class="boton">COMPRAR</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <footer>
+    <p class="copyright">
+      &copy; <span id="anio-copyright">2025</span> <a href="https://www.instagram.com/_st.ev3n_/" target="_blank" id="enlace-copyright">Steven</a>. Todos los derechos reservados.
+    </p>
+  </footer>
+</body>
+</html>
